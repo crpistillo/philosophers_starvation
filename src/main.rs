@@ -91,8 +91,6 @@ fn main() {
         Semaphore::new(1),
     ]);
 
-    //let mut handles = vec![];
-
     let philosophers = vec![
         Philosopher::new("Rojo", 0),
         Philosopher::new("Azul", 1),
